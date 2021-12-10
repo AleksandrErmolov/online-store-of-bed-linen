@@ -1,0 +1,62 @@
+.secondline {
+    margin: 0 auto;
+    margin-top: 45px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    gap: 57px;
+}
+
+.title {
+    margin: 0 auto;
+    margin-top: 132px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+
+    .firstTitle {
+        color: white;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 67px;
+        text-align: center;
+    }
+
+    .secondTitle {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 67px;
+        text-align: center;
+        color: #b0e5ff;
+        text-transform: uppercase;
+    }
+
+    .description {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    button {
+        margin-top: 63px;
+        background: linear-gradient(89.89deg, #60c0bc 0.08%, #4eb5e7 51.42%, #7662a7 101.08%);
+        border-radius: 5px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 175%;
+        width: 340px;
+        height: 60px;
+        color: white;
+    }
+}
