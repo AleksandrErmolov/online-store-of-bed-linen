@@ -10,6 +10,10 @@ function Card(props) {
 
     <div className={s.card}>
 
+      <div className={s.radius}>
+        <span>-{props.discount}%</span>
+      </div>
+
       <div className={s.firstBlock} style={{ backgroundImage: `url(${props.background})` }}>
 
         <div className={s.properties}>

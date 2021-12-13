@@ -20,9 +20,9 @@ function Secondscreen() {
         </div>
 
         <div className={s.cardBox}>
-          <Card background="../img/Card/image.png" state={2}/>
-          <Card background="../img/Card/image.png" state={3}/>
-          <Card background="../img/Card/image.png" state={4}/>
+          <Card background="../img/Card/image.png" state={2} discount={51}/>
+          <Card background="../img/Card/image.png" state={3} discount={51}/>
+          <Card background="../img/Card/image.png" state={4} discount={51}/>
         </div>
         
 
