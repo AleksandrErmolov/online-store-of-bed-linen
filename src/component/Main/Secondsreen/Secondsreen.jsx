@@ -1,4 +1,5 @@
 import s from "../Secondsreen/Secondsreen.module.scss"
+import Card from "./Card/Card";
 import Filtr from "./Filtr/Filtr";
 
 function Secondscreen() {
@@ -17,6 +18,15 @@ function Secondscreen() {
           <Filtr src='../img/Filtr/stripe.svg' text="Страйп Сатин" />
           <Filtr src='../img/Filtr/other.svg' text="Прочий текстиль" />
         </div>
+
+        <div className={s.cardBox}>
+          <Card background="../img/Card/image.png" state={2}/>
+          <Card background="../img/Card/image.png" state={3}/>
+          <Card background="../img/Card/image.png" state={4}/>
+        </div>
+        
+
+        
       </div>
     </div>
 
