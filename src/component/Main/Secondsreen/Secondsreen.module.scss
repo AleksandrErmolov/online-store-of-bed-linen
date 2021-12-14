@@ -1,6 +1,5 @@
 .secondscreen {
     background-color: #F8F8F8;
-    width: 100%;
     overflow-x: hidden;
 }
 
@@ -25,15 +24,11 @@
     margin-bottom: 50px;
 }
 
-.cardBox {
-    display: flex;
-}
 
 .cardBox {
     display: flex;
     gap:15px;
     overflow-y: hidden;
     overflow-x: hidden;
-    height: 100%;
 }
 

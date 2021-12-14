@@ -10,9 +10,8 @@ import 'swiper/swiper.min.css'
 import 'swiper/components/pagination/pagination.min.css'
 import 'swiper/components/navigation/navigation.min.css'
 import 'swiper/swiper-bundle.min.css'
-
-
 import "./styles.css";
+import '../../../index.css';
 
 
 // import Swiper core and required modules

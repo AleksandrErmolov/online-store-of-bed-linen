@@ -1,0 +1,25 @@
+.wrapper {
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.title {
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 171.4%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1e282d;
+}
+
+.description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 171.4%;
+    text-align: center;
+    color: #1e282d;
+}

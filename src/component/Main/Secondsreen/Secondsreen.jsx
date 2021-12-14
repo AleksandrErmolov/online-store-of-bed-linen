@@ -31,19 +31,23 @@ function Secondscreen() {
 
         <div>
 
-          {number === 0 ? <div className={s.cardBox}><Card background="../img/Card/image.png" state={2} discount={11} />
+          {number === 0 ?
+            <div className={s.cardBox}>
+            <Card background="../img/Card/image.png" state={2} discount={11} />
             <Card background="../img/Card/image.png" state={33} discount={45} />
             <Card background="../img/Card/image.png" state={22} discount={55} />
-          </div> : null}
-          {number === 1 ? <> <Card background="../img/Card/image.png" state={22} discount={61} />
+            </div>
+            : null}
+          
+          {number === 1 ? <div className={s.cardBox}> <Card background="../img/Card/image.png" state={22} discount={61} />
             <Card background="../img/Card/image.png" state={22} discount={61} />
-            <Card background="../img/Card/image.png" state={22} discount={61} /> </> : null}
-          {number === 2 ? <><Card background="../img/Card/image.png" state={114} discount={41} />
-            <Card background="../img/Card/image.png" state={114} discount={41} /> </> : null}
-          {number === 3 ? <Card background="../img/Card/image.png" state={45} discount={32} /> : null}
-          {number === 4 ? <> <Card background="../img/Card/image.png" state={134} discount={27} />
+            <Card background="../img/Card/image.png" state={22} discount={61} /> </div> : null}
+          {number === 2 ? <div className={s.cardBox}> <Card background="../img/Card/image.png" state={114} discount={41} />
+            <Card background="../img/Card/image.png" state={114} discount={41} /> </div> : null}
+          {number === 3 ? <div className={s.cardBox}> <Card background="../img/Card/image.png" state={45} discount={32} /> </div> : null}
+          {number === 4 ? <div className={s.cardBox}> <Card background="../img/Card/image.png" state={134} discount={27} />
             <Card background="../img/Card/image.png" state={234} discount={37} />
-            <Card background="../img/Card/image.png" state={334} discount={57} /> </> : null}
+            <Card background="../img/Card/image.png" state={334} discount={57} /> </div> : null}
 
 
           {/*           
