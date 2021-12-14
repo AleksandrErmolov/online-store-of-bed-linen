@@ -17,7 +17,7 @@ function Secondscreen() {
 
         <div className={s.filtrList}>
           <Filtr src='../img/Filtr/biaz.svg' text="Бязь" onClick={() => { setNumber(0) }}
-            active = {number === 0 ? "active" : ""} />
+            active={number === 0 ? "active" : ""} />
           <Filtr src='../img/Filtr/ranfors.svg' text="Ранформ" onClick={() => { setNumber(1) }}
             active={number === 1 ? "active" : ""} />
           <Filtr src='../img/Filtr/satin.svg' text="Сатин" onClick={() => { setNumber(2) }}
@@ -28,21 +28,29 @@ function Secondscreen() {
             active={number === 4 ? "active" : ""} />
         </div>
 
-        
-        <div className={s.cardBox}>
 
-          {number === 0 ? <Card background="../img/Card/image.png" state={2} discount={51} /> : null}
-          {number === 1 ? <Card background="../img/Card/image.png" state={22} discount={61} /> : null}
-          {number === 2 ? <Card background="../img/Card/image.png" state={114} discount={41} /> : null}
+        <div>
+
+          {number === 0 ? <div className={s.cardBox}><Card background="../img/Card/image.png" state={2} discount={11} />
+            <Card background="../img/Card/image.png" state={33} discount={45} />
+            <Card background="../img/Card/image.png" state={22} discount={55} />
+          </div> : null}
+          {number === 1 ? <> <Card background="../img/Card/image.png" state={22} discount={61} />
+            <Card background="../img/Card/image.png" state={22} discount={61} />
+            <Card background="../img/Card/image.png" state={22} discount={61} /> </> : null}
+          {number === 2 ? <><Card background="../img/Card/image.png" state={114} discount={41} />
+            <Card background="../img/Card/image.png" state={114} discount={41} /> </> : null}
           {number === 3 ? <Card background="../img/Card/image.png" state={45} discount={32} /> : null}
-          {number === 4 ? <Card background="../img/Card/image.png" state={334} discount={77} /> : null}
+          {number === 4 ? <> <Card background="../img/Card/image.png" state={134} discount={27} />
+            <Card background="../img/Card/image.png" state={234} discount={37} />
+            <Card background="../img/Card/image.png" state={334} discount={57} /> </> : null}
 
 
-{/*           
+          {/*           
           <Card background="../img/Card/image.png" state={2} discount={51} />
           <Card background="../img/Card/image.png" state={3} discount={51} />
           <Card background="../img/Card/image.png" state={4} discount={51} /> */}
-          
+
         </div>
 
 

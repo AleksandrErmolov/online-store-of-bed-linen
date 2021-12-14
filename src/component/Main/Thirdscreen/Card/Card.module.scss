@@ -1,0 +1,53 @@
+.card {
+    width: 473px;
+    background: rgba(9, 24, 30, 0.59);
+    border-radius: 10px;
+}
+
+.wrapper {
+    padding: 49px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    img {
+        width: 155px;
+        height: 155px;
+        margin-bottom: 43px;
+    }
+}
+
+.title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 131.9%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 473px;
+}
+
+.titleColor {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 131.9%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #b0e5ff;
+    width: 473px;
+    margin-bottom: 40px;
+}
+
+.description {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 131.9%;
+    text-align: center;
+    color: #ffffff;
+    width: 375px;
+}
