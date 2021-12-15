@@ -8,6 +8,9 @@ function Header() {
       <header className={s.header}>
         <div className={s.wrapper}>
           <div className={s.headerFirstLine}>
+            <div className={s.menu}>
+              <img src="../img/header/menu.svg" alt="icon Facebook" />
+            </div>
             <div className={s.social}>
               <img src="../img/header/facebook.svg" alt="icon Facebook" />
               <img src="../img/header/instagram.svg" alt="icon instagram" />
@@ -21,7 +24,8 @@ function Header() {
               <span>8 800 337 51 74</span>
               <div className={s.cart}>
                 <img src="../img/header/cart.svg" alt="icon cart" />
-                <div className={s.round}><span>10</span>
+                <div className={s.round}>
+                  <span>10</span>
                 </div>
               </div>
             </div>

@@ -1,6 +1,5 @@
 .swiper {
     width: 100%;
-    height: 100%;
     background-color: black;
 }
 
@@ -28,7 +27,7 @@
 .swiper-slide img {
     display: block;
     width: 100%;
-    width: 100%;
+    height: 100%;
 }
 
 .mySwiper {
@@ -72,7 +71,7 @@
 .swiper-button-prev:hover {
     background-image: url('../Slider/hover2.svg');
     background-repeat: no-repeat;
-   
+
 }
 
 .swiper-button-next:after, .swiper-button-prev:after {
@@ -84,4 +83,20 @@
     font-variant: initial;
     line-height: 1;
     font-size: 0;
+}
+
+
+@media (max-width: 576px) {
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 700px;
+        object-fit: none;
+
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        display: none;
+    }
 }

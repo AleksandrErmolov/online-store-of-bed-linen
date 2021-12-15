@@ -1,6 +1,4 @@
-@media screen and (min-width: 1200px) {
-    
-    .secondline {
+.secondline {
     margin: 0 auto;
     margin-top: 45px;
     color: white;
@@ -61,37 +59,56 @@
         color: white;
     }
 }
+
+@media (max-width: 576px) {
+    .secondline {
+        margin: 0 auto;
+        margin-top: 45px;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        display: flex;
+        gap: 57px;
+    }
+
+    .title {
+        margin: 0 auto;
+        margin-top: 0px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+
+        .firstTitle {
+            font-size: 38px;
+            line-height: 46px;
+        }
+
+        .secondTitle {
+font-size: 38px;
+line-height: 65px;
+
+        }
+
+        .description {
+            font-size: 20px;
+            line-height: 24px;
+        }
+
+        button {
+            margin-top: 33px;
+            background: linear-gradient(89.89deg, #60c0bc 0.08%, #4eb5e7 51.42%, #7662a7 101.08%);
+            border-radius: 5px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 175%;
+            width: 340px;
+            height: 60px;
+            color: white;
+            border: 0px;
+        }
+    }
 }
-
-// @media screen and (min-width: 992px) and (max-width: 1199px) {
-//     .title {
-//         margin-top: 50px;
-//         gap: 30px;
-
-//         .firstTitle {
-//             font-size: 35px;
-//             line-height: 50px;
-//             text-align: center;
-//         }
-
-//         .secondTitle {
-//             font-size: 35px;
-//             line-height: 67px;
-//             text-align: center;
-//             text-transform: uppercase;
-//         }
-
-//         .description {
-//             font-size: 1px;
-//             line-height: 20px;
-//         }
-
-//         button {
-//             margin-top: 43px;
-//             font-size: 18px;
-//             line-height: 175%;
-//             width: 340px;
-//             height: 60px;
-//         }
-//     }
-// }
