@@ -1,3 +1,7 @@
+.thirdScreen {
+
+}
+
 
 .wrapper {
     padding-left: 236px;
@@ -19,4 +23,35 @@
 .cardBox {
     display: flex;
     gap: 15px;
+}
+
+@media (max-width: 576px) {
+
+    .thirdScreen {
+    width: 100%;
+    height: 1324px;
+    object-fit:cover;
+    background-repeat:no-repeat;
+}
+
+
+    .wrapper {
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-bottom: 50px;
+        padding-top: 40px;
+    }
+
+    .title {
+        font-size: 35px;
+        line-height: 128.4%;
+    }
+
+    .cardBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+    }
 }

@@ -1,15 +1,23 @@
+import { useState } from 'react';
 import app from '../../App.module.scss'
 import s from '../Header/Header.module.scss'
+import Burger from './Burger/Burger';
 
 
 function Header() {
+
+
+
+  const [menuActive, setMenuActive] = useState(false)
+
   return (
     <>
       <header className={s.header}>
         <div className={s.wrapper}>
           <div className={s.headerFirstLine}>
             <div className={s.menu}>
-              <img src="../img/header/menu.svg" alt="icon Facebook" />
+              <button style={{ backgroundImage: 'url("../img/header/menu.svg")' }} onClick={() => setMenuActive(!menuActive)}></button>
+              {/* <img src="../img/header/menu.svg" alt="icon Facebook" /> */}
             </div>
             <div className={s.social}>
               <img src="../img/header/facebook.svg" alt="icon Facebook" />
@@ -30,6 +38,8 @@ function Header() {
               </div>
             </div>
           </div>
+          <Burger active={menuActive} setMenuActive={setMenuActive} />
+
           <div className={s.secondline} >
             <span> О нас</span>
             <img src="../img/header/stars.svg" alt="stars" />
